@@ -1,15 +1,15 @@
 import React from "react";
 import { Button } from "./ui/button";
 
-function Die(props) {
+function Die({ isHeld, id, value, holdId }) {
   return (
     <>
       <Button
-        className={props.isHeld ? "bg-green-500" : "bg-white text-black"}
-        onClick={() => props.holdId(props.id)}
+        className={isHeld ? "bg-green-500 hover:bg-green-400" : undefined}
+        onClick={() => holdId(id)}
         size="lg"
       >
-        {props.value}
+        {value}
       </Button>
     </>
   );
