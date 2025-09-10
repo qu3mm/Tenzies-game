@@ -1,83 +1,75 @@
-# Create Vite Project
+# Tenzies Game
 
-This project was bootstrapped with [Vite](https://vitejs.dev/).
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-blue?style=for-the-badge)](https://qu3mm.github.io/Tenzies-game/)
 
-## Getting Started
+A modern, responsive implementation of the classic **Tenzies** dice game, built with React and styled using Tailwind CSS and shadcn/ui components.
 
-To get started with this project, follow the instructions below.
+## 🎲 About the Game
 
-### Prerequisites
+Tenzies is a simple and addictive dice game. The objective is to roll all dice until they show the same value. Players can "hold" dice to keep their values between rolls, strategizing to win in as few rolls as possible.
 
-Make sure you have the following installed on your machine:
+## 🚀 Features
 
-- [Node.js](https://nodejs.org/) (version 14 or higher)
-- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
+- **Interactive Gameplay:** Click dice to hold/unhold them and roll the rest.
+- **Win Detection:** Confetti animation celebrates your victory!
+- **Responsive Design:** Works seamlessly on desktop and mobile devices.
+- **Modern UI:** Built with [shadcn/ui](https://ui.shadcn.com/) and Tailwind CSS for a clean, accessible interface.
 
-### Installation
+## 🖥️ Demo
 
-1. Clone the repository:
+Play the game here: [https://qu3mm.github.io/Tenzies-game/](https://qu3mm.github.io/Tenzies-game/)
 
+## 🛠️ Tech Stack
+
+- [React](https://react.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [shadcn/ui](https://ui.shadcn.com/)
+- [Radix UI](https://www.radix-ui.com/)
+- [Vite](https://vitejs.dev/)
+
+## 📦 Installation
+
+1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-username/create-vite.git
+   git clone https://github.com/qu3mm/Tenzies-game.git
+   cd Tenzies-game
    ```
 
-2. Navigate to the project directory:
-
-   ```sh
-   cd create-vite
-   ```
-
-3. Install the dependencies:
-
+2. **Install dependencies:**
    ```sh
    npm install
    ```
 
-   or
-
+3. **Start the development server:**
    ```sh
-   yarn install
+   npm run dev
    ```
 
-### Running the Project
+4. Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-To start the development server, run:
+## 📁 Project Structure
 
-```sh
-npm run dev
+```
+Tenzies-game/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Die.jsx
+│   │   ├── Header.jsx
+│   │   └── ui/
+│   ├── lib/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── package.json
+├── tailwind.config.js
+└── ...
 ```
 
-or
+## 📝 License
 
-```sh
-yarn dev
-```
+This project is licensed under the [MIT License](LICENSE).
 
-The development server will be available at `http://localhost:3000`.
+---
 
-### Building for Production
-
-To build the project for production, run:
-
-```sh
-npm run build
-```
-
-or
-
-```sh
-yarn build
-```
-
-The production-ready files will be in the `dist` directory.
-
-### License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
-
-### Acknowledgements
-
-- [Vite](https://vitejs.dev/)
-- [Node.js](https://nodejs.org/)
-- [npm](https://www.npmjs.com/)
-- [Yarn](https://yarnpkg.com/)
+Made with ❤️ by [qu3mm](https://github.com/qu3mm)
